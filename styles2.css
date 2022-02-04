@@ -1,0 +1,32 @@
+*{
+    margin:80;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+.contact{
+
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+
+
+}
+.contact .content h2{
+    font-size : 36px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.contact .content p{
+    font-weight: 500;
+    color: #555;
+}
