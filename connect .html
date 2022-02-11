@@ -1,33 +1,50 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Form Example</title>
+<!DOCTYPE html>
 
-<link rel="stylesheet" href="register-style.css">
-</head>
- 
-
-
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Connect  Form  </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-<form align="center">
- 
-<h3 style="color:white">Personal Details</h3>
-Name:
-<input type="text" name="name" id="name"><br><br>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box" width="200">
+            <span class="details">MESSAGE</span>
+            <textarea name="textarea" cols="45" rows="5" id="textarea"></textarea><br>
+            
+          </div>
 
-E-mail id: <input type="text" name="name" id="name"><br><br>
+        </div>
+        <div class="gender-details">
+          
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
 
-Contact#: <input type="text" name="mobile" id="mobile">
- 
-
-
-<h3 style="color:white">Message </h3>
-<textarea name="textarea" cols="45" rows="5" id="textarea"></textarea><br>
-<br>
-
- 
-<input type="image" src="download.png "height="50">
-</form>
 </body>
 </html>
