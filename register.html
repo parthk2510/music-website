@@ -23,7 +23,7 @@
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
+            <input type="text" onsubmit="return ValidateEmail() " placeholder="Enter your email" required>
           </div>
           <div class="input-box">
             <span class="details">Phone Number</span>
@@ -66,4 +66,16 @@
   </div>
 
 </body>
+
+<script>
+  function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}
+</script>
 </html>
