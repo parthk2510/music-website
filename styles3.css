@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container1 {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(132, 92, 212, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-size: 15px;
+}
+
+.content {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+}
+
+.videowrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Additional CSS for the top music section */
+
+.top-music-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.top-music-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-music-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-music-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.top-music-item p {
+    margin: 0;
+    line-height: 1.5;
+}
