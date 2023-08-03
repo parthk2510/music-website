@@ -1,64 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head >
+<head>
     <meta charset="utf-8">
-    <title>Simple video example</title>
-    <link rel="stylesheet" herf="styles3.css">
-
+    <title>Relax on Sunday - Video Page</title>
+    <link rel="stylesheet" href="styles3.css">
 </head>
 
-<body style="
-    HEIGHT: 100em;
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(132,92,212,1) 75%, rgba(0,212,255,1) 100%); */
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(132,92,212,1) 75%, rgba(0,212,255,1) 100%); */
-    /* background-repeat: no-repeat; */
-    /* background: rgb(2,0,36); */
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(132,92,212,1) 100%, rgba(0,212,255,1) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-">
-    <div class="wrapper" style="
-    display: flex;
-    justify-content: center;
-">
-        <h1 style="
-    color: white;
-">RELAX ON SUNDAY</h1>
+<body>
+    <div class="container1">
+        <div class="navbar">
+            <img src="media/logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="video_page.html">Music Video</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="connect.html">Connect</a></li>
+                <li><a href="/React_Page/index.html">React</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <h1>RELAX ON SUNDAY</h1>
+            </div>
+            <div class="videowrapper">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/0TP9xot28Qg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
-    <div class="videowrapper" style="
-    display: flex;
-    justify-content: center;
-">
-        <!-- <iframe width="560" height="315" src="" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen=""></iframe> -->
-
-            
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/0TP9xot28Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </div>
-
-
-   
-
-
-
-    <!-- <style>
-    iframe {
-position:absolute;
-left:0px;
-top:0px;
-right:0px;
-bottom:0px;
-height: 100%;
-width:100%;
-
-
-}
-</style> -->
 </body>
 
 </html>
