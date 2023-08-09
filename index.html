@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-
-    <link rel="stylesheet" href="styles.css">
-    <title>Music Website </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <div class="navbar">
-            <img src="media/logo.png" class="logo" style="max-width:100%;height:auto;">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                 <li><a href="video_page.html">Music Video</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="connect .html">Connect</a></li>
-                <li><a href="/React_Page/index.html">React </a></li>
-            </ul>
-
+      <div class="navbar">
+        <img
+          src="media/logo.png"
+          class="logo"
+          style="max-width: 100%; height: auto"
+        />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="video_page.html">Music Video</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="connect .html">Connect</a></li>
+          <li><a href="/React_Page/index.html">React </a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="left-col">
+          <h1>The<br />REAL<br />Sound</h1>
         </div>
-        <div class="content">
-            <div class="left-col">
-                <h1>The<br>REAL<br>Sound</h1>
-
-            </div>
-            <div class="right-col">
-                <p>Click here to listen</p>
-                <img src="media/play.png" id="icon">
-
-            </div>
-
+        <div class="right-col">
+          <p>Click here to listen</p>
+          <img src="media/play.png" id="icon" />
         </div>
-
+        <div class="Bottom">
+          <p>
+            Music websites act as an online resume for most professional
+            musicians and bands - but it has the potential to be so much more.
+            It's a central hub where audiences from all over the world can
+            listen to your music, learn about upcoming performances, and get to
+            know the personality behind your work. It serves as a digital stage
+            where you can showcase your artistic journey, share your creative
+            process, and connect with fans on a deeper level. By providing a
+            platform to share your story, influences, and the meaning behind
+            your music, your website becomes a powerful tool to engage, inspire,
+            and build a loyal fan base. Whether you're an emerging artist or an
+            established band, a well-designed music website can amplify your
+            presence in the digital landscape and leave a lasting impression on
+            music enthusiasts worldwide.
+          </p>
+        </div>
+      </div>
     </div>
     <audio id="mysong">
-        <source src="media/dj_khaled_I_m_the_one_slowed_reverb__Ply2xmo4_fY_140.mp3" type="audio/mp3">
+      <source
+        src="media/dj_khaled_I_m_the_one_slowed_reverb__Ply2xmo4_fY_140.mp3"
+        type="audio/mp3"
+      />
     </audio>
-<script>
-    var mysong =document.getElementById("mysong");
-    var icon=document.getElementById("icon");
+    <script>
+      var mysong = document.getElementById("mysong");
+      var icon = document.getElementById("icon");
 
-    icon.onclick=function(){
-        if(mysong.paused){
-            mysong.play();
-            icon.src="media/pause.png";
+      icon.onclick = function () {
+        if (mysong.paused) {
+          mysong.play();
+          icon.src = "media/pause.png";
+        } else {
+          mysong.pause();
+          icon.src = "media/play.png";
         }
-        else{
-            mysong.pause();
-            icon.src="media/play.png";
-        }
-    }
-</script>
-</body>
-
+      };
+    </script>
+  </body>
 </html>
