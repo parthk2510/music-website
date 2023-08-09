@@ -70,3 +70,23 @@
 	width: 80px;
 	cursor: pointer;
 }
+
+.Bottom {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	padding: 100px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box; /* Add this line */
+  }
+  
+  @media (max-width: 768px) {
+	.Bottom {
+	  position: relative;
+	  padding: 10px; /* Adjust padding for smaller screens */
+	}
+  }
+  
